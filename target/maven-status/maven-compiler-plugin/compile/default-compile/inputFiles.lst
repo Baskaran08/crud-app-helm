@@ -1,0 +1,10 @@
+C:\Users\asus\personal_documents\Full_Stack _Web_Development\back_end_web_development\Java projects\Training Tasks\Using Spring Boot\CRUDApp\src\main\java\com\example\CRUDApp\Controller\AccountController.java
+C:\Users\asus\personal_documents\Full_Stack _Web_Development\back_end_web_development\Java projects\Training Tasks\Using Spring Boot\CRUDApp\src\main\java\com\example\CRUDApp\CrudAppApplication.java
+C:\Users\asus\personal_documents\Full_Stack _Web_Development\back_end_web_development\Java projects\Training Tasks\Using Spring Boot\CRUDApp\src\main\java\com\example\CRUDApp\Exception\AccountInactiveException.java
+C:\Users\asus\personal_documents\Full_Stack _Web_Development\back_end_web_development\Java projects\Training Tasks\Using Spring Boot\CRUDApp\src\main\java\com\example\CRUDApp\Exception\AccountNotFoundException.java
+C:\Users\asus\personal_documents\Full_Stack _Web_Development\back_end_web_development\Java projects\Training Tasks\Using Spring Boot\CRUDApp\src\main\java\com\example\CRUDApp\Exception\EmailAlreadyUsedException.java
+C:\Users\asus\personal_documents\Full_Stack _Web_Development\back_end_web_development\Java projects\Training Tasks\Using Spring Boot\CRUDApp\src\main\java\com\example\CRUDApp\Exception\GlobalExceptionHandler.java
+C:\Users\asus\personal_documents\Full_Stack _Web_Development\back_end_web_development\Java projects\Training Tasks\Using Spring Boot\CRUDApp\src\main\java\com\example\CRUDApp\Model\Account.java
+C:\Users\asus\personal_documents\Full_Stack _Web_Development\back_end_web_development\Java projects\Training Tasks\Using Spring Boot\CRUDApp\src\main\java\com\example\CRUDApp\Model\AccountStatus.java
+C:\Users\asus\personal_documents\Full_Stack _Web_Development\back_end_web_development\Java projects\Training Tasks\Using Spring Boot\CRUDApp\src\main\java\com\example\CRUDApp\Repository\AccountRepository.java
+C:\Users\asus\personal_documents\Full_Stack _Web_Development\back_end_web_development\Java projects\Training Tasks\Using Spring Boot\CRUDApp\src\main\java\com\example\CRUDApp\Service\AccountService.java

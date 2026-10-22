@@ -1,0 +1,40 @@
+
+replicaCount: 2
+
+image:
+  repository: baskarang08/crud_app
+  tag: "4.0"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8080
+
+ingress:
+  enabled: true
+  className: nginx
+  host: localhost
+  path: /
+  pathType: Prefix
+
+mysql:
+  image: mysql:8
+  replicaCount: 1
+  service:
+    port: 3306
+  database: crud_app
+  username: root
+  password: root
+
+probes:
+  startup:
+    path: /actuator/health/liveness
+    periodSeconds: 5
+    failureThreshold: 30
+  liveness:
+    path: /actuator/health/liveness
+    periodSeconds: 10
+  readiness:
+    path: /actuator/health/readiness
+    periodSeconds: 5

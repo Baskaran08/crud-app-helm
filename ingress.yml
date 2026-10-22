@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: crud-app-ingress
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: localhost  # <--- Binds routing strictly to your local machine address
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: crud-app-service  # <--- Forwards the traffic to your service
+                port:
+                  number: 80
